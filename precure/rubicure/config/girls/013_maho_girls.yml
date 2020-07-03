@@ -1,0 +1,183 @@
+cure_miracle: &cure_miracle
+  girl_name:    cure_miracle
+  human_name:   朝日奈みらい
+  precure_name: キュアミラクル
+  cast_name:    高橋李依
+  color:        pink
+  created_date: 2016-02-07 # episode 1
+  birthday: 6/12
+  extra_names:
+  transform_calls:
+    - cure_up_rapapa
+  transform_styles:
+    diamond:
+      girl_name:    cure_miracle_diamond
+      precure_name: キュアミラクル（ダイヤスタイル）
+      color:        pink
+      created_date: 2016-02-07 # episode 1
+      transform_message: |-
+        キュアップ・ラパパ！　ダイヤ！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの奇跡！キュアミラクル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          ダイヤ！永遠の輝きを私達の手に！
+          フルフルリンクル！
+          プリキュア・ダイヤモンド・エターナル！
+    ruby:
+      girl_name:    cure_miracle_ruby
+      precure_name: キュアミラクル（ルビースタイル）
+      color:        red
+      created_date: 2016-02-21 # episode 3
+      transform_message: |-
+        キュアップ・ラパパ！　ルビー！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの奇跡！キュアミラクル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          ルビー！紅の情熱よ私達の手に！
+          フルフルリンクル！
+          プリキュア・ルビー・パッショナーレ！
+    sapphire:
+      girl_name:    cure_miracle_sapphire
+      precure_name: キュアミラクル（サファイアスタイル）
+      color:        blue
+      created_date: 2016-03-20 # episode 7
+      transform_message: |-
+        キュアップ・ラパパ！　サファイア！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの奇跡！キュアミラクル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          サファイア！青き知性よ私達の手に！
+          フルフルリンクル！
+          プリキュア・サファイア・スマーティッシュ！
+    topaz:
+      girl_name:    cure_miracle_topaz
+      precure_name: キュアミラクル（トパーズスタイル）
+      color:        yellow
+      created_date: 2016-04-17 # episode 10
+      transform_message: |-
+        キュアップ・ラパパ！　トパーズ！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの奇跡！キュアミラクル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          トパーズ！金色の希望よ私達の手に！
+          フルフルリンクル！
+          プリキュア・トパーズ・エスペランサ！
+
+cure_magical: &cure_magical
+  girl_name:    cure_magical
+  human_name:   十六夜リコ
+  precure_name: キュアマジカル
+  cast_name:    堀江由衣
+  color:        purple
+  created_date: 2016-02-07 # episode 1
+  birthday: 11/12
+  extra_names:
+  transform_calls:
+    - cure_up_rapapa
+  transform_styles:
+    diamond:
+      girl_name:    cure_magical_diamond
+      precure_name: キュアマジカル（ダイヤスタイル）
+      color:        purple
+      created_date: 2016-02-07 # episode 1
+      transform_message: |-
+        キュアップ・ラパパ！　ダイヤ！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの魔法！キュアマジカル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          ダイヤ！永遠の輝きを私達の手に！
+          フルフルリンクル！
+          プリキュア・ダイヤモンド・エターナル！
+    ruby:
+      girl_name:    cure_magical_ruby
+      precure_name: キュアマジカル（ルビースタイル）
+      color:        red
+      created_date: 2016-02-21 # episode 3
+      transform_message: |-
+        キュアップ・ラパパ！　ルビー！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの魔法！キュアマジカル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          ルビー！紅の情熱よ私達の手に！
+          フルフルリンクル！
+          プリキュア・ルビー・パッショナーレ！
+    sapphire:
+      girl_name:    cure_magical_sapphire
+      precure_name: キュアマジカル（サファイアスタイル）
+      color:        blue
+      created_date: 2016-03-20 # episode 7
+      transform_message: |-
+        キュアップ・ラパパ！　サファイア！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの魔法！キュアマジカル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          サファイア！青き知性よ私達の手に！
+          フルフルリンクル！
+          プリキュア・サファイア・スマーティッシュ！
+    topaz:
+      girl_name:    cure_magical_topaz
+      precure_name: キュアマジカル（トパーズスタイル）
+      color:        yellow
+      created_date: 2016-04-17 # episode 11
+      transform_message: |-
+        キュアップ・ラパパ！　トパーズ！
+        ミラクル・マジカル・ジュエリーレ！
+        ふたりの魔法！キュアマジカル！
+        魔法つかいプリキュア！！
+      attack_messages:
+        - |-
+          リンクルステッキ！
+          トパーズ！金色の希望よ私達の手に！
+          フルフルリンクル！
+          プリキュア・トパーズ・エスペランサ！
+cure_felice: &cure_felice
+  girl_name:    cure_felice
+  human_name:   花海ことは
+  precure_name: キュアフェリーチェ
+  cast_name:    早見沙織
+  color:        green
+  created_date: 2016-07-03 # episode 22
+  #birthday:     4/10
+  extra_names:
+  transform_calls:
+    - cure_up_rapapa
+  transform_styles:
+    emerald:
+      girl_name:    cure_felice_emerald
+      transform_message: |-
+        キュアップ・ラパパ！エメラルド！
+        フェリーチェ・ファンファン・フラワーレ！
+        あまねく生命に祝福を！キュアフェリーチェ！
+      attack_messages:
+        - |-
+          フラワーエコーワンド！
+          エメラルド！
+          キュアー・アップ！
+          プリキュア！エメラルド・リンカネーション！
+miracle:
+  <<: *cure_miracle
+magical:
+  <<: *cure_magical
+felice:
+  <<: *cure_felice

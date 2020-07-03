@@ -1,0 +1,175 @@
+cure_happy: &cure_happy
+  girl_name:    cure_happy
+  human_name:   星空みゆき
+  precure_name: キュアハッピー
+  cast_name:    福圓美里
+  created_date: 2012-02-05 # episode 1
+  color:        pink
+  transform_message: |-
+    (レディ？)
+    プリキュア・スマイルチャージ！
+    (ゴー！ゴー！レッツ・ゴー！ハッピー！！)
+    キラキラ輝く未来の光！ キュアハッピー！
+    5つの光が導く未来！
+    輝け！スマイルプリキュア！
+  extra_names:
+  - プリンセスハッピー
+  - ウルトラハッピー
+  attack_messages:
+    - |-
+      プリキュア！ハッピーシャワー！！
+    - |-
+      開け、ロイヤルクロック！
+      (みんなの力を1つにするクル！)
+      届け、希望の光！
+      はばたけ！光り輝く未来へ！
+      プリキュア！ロイヤルレインボーバースト！
+    - |-
+      (みんなの力を1つにするクル！)
+      プリキュア！ミラクルレインボーバースト！
+      輝けー！！
+      スマイルプリキュア！！
+  transform_calls:
+    - smile_charge
+cure_sunny: &cure_sunny
+  girl_name:    cure_sunny
+  human_name:   日野あかね
+  precure_name: キュアサニー
+  cast_name:    田野アサミ
+  created_date: 2012-02-12 # episode 2
+  color:        red
+  transform_message: |-
+    (レディ？)
+    プリキュア・スマイルチャージ！
+    (ゴー！ゴー！レッツ・ゴー！サニー！！)
+    太陽サンサン熱血パワー！ キュアサニー！
+    5つの光が導く未来！
+    輝け！スマイルプリキュア！
+  extra_names:
+  - プリンセスサニー
+  - ウルトラサニー
+  attack_messages:
+    - |-
+      プリキュア！サニーファイヤー！！
+    - |-
+      開け、ロイヤルクロック！
+      (みんなの力を1つにするクル！)
+      届け、希望の光！
+      はばたけ！光り輝く未来へ！
+      プリキュア！ロイヤルレインボーバースト！
+    - |-
+      (みんなの力を1つにするクル！)
+      プリキュア！ミラクルレインボーバースト！
+      輝けー！！
+      スマイルプリキュア！！
+  transform_calls:
+    - smile_charge
+cure_peace: &cure_peace
+  girl_name:    cure_peace
+  human_name:   黄瀬やよい
+  precure_name: キュアピース
+  cast_name:    金元寿子
+  created_date: 2012-02-19 # episode 3
+  color:        yellow
+  transform_message: |-
+    (レディ？)
+    プリキュア・スマイルチャージ！
+    (ゴー！ゴー！レッツ・ゴー！ピース！！)
+    ピカピカピカリンジャンケンポン！ キュアピース！
+    5つの光が導く未来！
+    輝け！スマイルプリキュア！
+  extra_names:
+  - プリンセスピース
+  - ウルトラピース
+  attack_messages:
+    - |-
+      プリキュア！ピースサンダー！！
+    - |-
+      開け、ロイヤルクロック！
+      (みんなの力を1つにするクル！)
+      届け、希望の光！
+      はばたけ！光り輝く未来へ！
+      プリキュア！ロイヤルレインボーバースト！
+    - |-
+      (みんなの力を1つにするクル！)
+      プリキュア！ミラクルレインボーバースト！
+      輝けー！！
+      スマイルプリキュア！！
+  transform_calls:
+    - smile_charge
+cure_march: &cure_march
+  girl_name:    cure_march
+  human_name:   緑川なお
+  precure_name: キュアマーチ
+  cast_name:    井上麻里奈
+  created_date: 2012-02-26 # episode 4
+  color:        green
+  transform_message: |-
+    (レディ？)
+    プリキュア・スマイルチャージ！
+    (ゴー！ゴー！レッツ・ゴー！マーチ！！)
+    勇気リンリン直球勝負！ キュアマーチ！
+    5つの光が導く未来！
+    輝け！スマイルプリキュア！
+  extra_names:
+  - プリンセスマーチ
+  - ウルトラマーチ
+  attack_messages:
+    - |-
+      プリキュア！マーチシュート！！
+    - |-
+      開け、ロイヤルクロック！
+      (みんなの力を1つにするクル！)
+      届け、希望の光！
+      はばたけ！光り輝く未来へ！
+      プリキュア！ロイヤルレインボーバースト！
+    - |-
+      (みんなの力を1つにするクル！)
+      プリキュア！ミラクルレインボーバースト！
+      輝けー！！
+      スマイルプリキュア！！
+  transform_calls:
+    - smile_charge
+cure_beauty: &cure_beauty
+  girl_name:    cure_beauty
+  human_name:   青木れいか
+  precure_name: キュアビューティ
+  cast_name:    西村ちなみ
+  created_date: 2012-03-04 # episode 5
+  color:        blue
+  transform_message: |-
+    (レディ？)
+    プリキュア・スマイルチャージ！
+    (ゴー！ゴー！レッツ・ゴー！ビューティ！！)
+    しんしんと降り積もる清き心！ キュアビューティ！
+    5つの光が導く未来！
+    輝け！スマイルプリキュア！
+  extra_names:
+  - プリンセスビューティ
+  - ウルトラビューティ
+  attack_messages:
+    - |-
+      プリキュア！ビューティブリザード！！
+    - |-
+      開け、ロイヤルクロック！
+      (みんなの力を1つにするクル！)
+      届け、希望の光！
+      はばたけ！光り輝く未来へ！
+      プリキュア！ロイヤルレインボーバースト！
+    - |-
+      (みんなの力を1つにするクル！)
+      プリキュア！ミラクルレインボーバースト！
+      輝けー！！
+      スマイルプリキュア！！
+  transform_calls:
+    - smile_charge
+happy:
+  <<: *cure_happy
+sunny:
+  <<: *cure_sunny
+peace:
+  <<: *cure_peace
+march:
+  <<: *cure_march
+beauty:
+  <<: *cure_beauty
