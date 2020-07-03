@@ -1,6 +1,8 @@
 package shiritori
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestNewWord(t *testing.T) {
 	testCases := []struct {

@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"sort"
-	"strings"
 
 	"github.com/spiegel-im-spiegel/precure-shiritori/precure"
 	"github.com/spiegel-im-spiegel/precure-shiritori/shiritori"
@@ -13,8 +12,8 @@ import (
 func main() {
 	words := precure.Names()
 	sort.Strings(words)
-	fmt.Println("総勢", len(words), "人")
-	fmt.Println(strings.Join(words, ", "))
+	// fmt.Println("総勢", len(words), "人")
+	// fmt.Println(strings.Join(words, ", "))
 	lst := shiritori.Do(words...)
 	sort.Slice(lst, func(i, j int) bool {
 		return lst[i].Len() > lst[j].Len()

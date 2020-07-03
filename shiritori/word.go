@@ -23,8 +23,10 @@ func NewWord(s string) *Word {
 	}
 	ss := width.Fold.String(norm.NFKC.String(s))
 	ss = strings.TrimPrefix(ss, "キュア") // special rule for precure shiritori
-	//rs := []rune(strings.TrimRightFunc(ss, func(r rune) bool { return unicode.Is(unicode.Lm, r) || unicode.Is(unicode.P, r) }))
-	rs := []rune(strings.TrimFunc(ss, func(r rune) bool { return unicode.Is(unicode.Lm, r) || unicode.Is(unicode.P, r) }))
+	ss = strings.TrimFunc(ss, func(r rune) bool {
+		return !unicode.Is(unicode.L, r) || unicode.Is(unicode.Lm, r)
+	})
+	rs := []rune(ss)
 	return &Word{word: s, top: kana.Norm(rs[0]), tail: kana.Norm(rs[len(rs)-1])}
 }
 
